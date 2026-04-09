@@ -1,0 +1,23 @@
+/* css/style.css */
+
+/* Setam un font curat pentru toata aplicatia */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Facem meniul lateral din dashboard sa ocupe toata inaltimea ecranului */
+.list-group {
+    min-height: calc(100vh - 100px);
+}
+
+/* Efect de hover usor pe randurile din tabel */
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+    transition: 0.3s background-color;
+}
+
+/* Ajustare grafica pentru butoanele de actiune din tabel */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
